@@ -1,0 +1,4 @@
+﻿User-agent: *
+Allow: /
+
+Sitemap: https://raymondcerneytech.github.io/sitemap.xml

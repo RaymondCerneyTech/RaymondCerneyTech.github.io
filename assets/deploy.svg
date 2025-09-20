@@ -1,0 +1,26 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="600" height="360" viewBox="0 0 600 360" role="img" aria-labelledby="deployTitle">
+  <title id="deployTitle">Launch arrow with checkmarks</title>
+  <defs>
+    <linearGradient id="bgDeploy" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#111d34" />
+      <stop offset="100%" stop-color="#081020" />
+    </linearGradient>
+    <linearGradient id="arrow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7c5cff" />
+      <stop offset="100%" stop-color="#63f2cd" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="360" rx="28" fill="url(#bgDeploy)" />
+  <g opacity="0.9">
+    <path d="M150 260c48-72 120-132 210-168l-30-24 120-12-44 102-26-28c-64 30-124 72-174 130z" fill="url(#arrow)" opacity="0.85" />
+    <path d="M156 264l72-20-36 72z" fill="#2b355d" opacity="0.8" />
+  </g>
+  <g fill="none" stroke="#63f2cd" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.75">
+    <path d="M432 96l24 24 40-48" />
+    <path d="M396 162l24 24 40-48" />
+    <path d="M360 228l24 24 40-48" />
+  </g>
+  <circle cx="420" cy="102" r="22" fill="rgba(124, 92, 255, 0.2)" />
+  <circle cx="384" cy="168" r="20" fill="rgba(99, 242, 205, 0.18)" />
+  <circle cx="348" cy="234" r="18" fill="rgba(124, 92, 255, 0.18)" />
+</svg>

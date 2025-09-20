@@ -1,0 +1,13 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">RC monogram</title>
+  <defs>
+    <linearGradient id="g" x1="12%" y1="8%" x2="88%" y2="92%">
+      <stop offset="0%" stop-color="#7c5cff" />
+      <stop offset="60%" stop-color="#5fd4ff" />
+      <stop offset="100%" stop-color="#243d7c" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#g)" />
+  <path fill="#ffffff" d="M20 48V16h12c8.1 0 13 3.8 13 10.4 0 5.2-2.6 8.6-7 9.9l8 11.7h-8.6l-7-10H28v10h-8zm8-16h4.3c3.6 0 5.8-1.4 5.8-5 0-3.5-2.3-4.8-5.8-4.8H28v9.8z" />
+  <path fill="#e9ecff" d="M45.2 52c-10 0-16-6.5-16-16 0-10 6.2-16 15.8-16 4.8 0 8.6 1.8 11.4 5.4l-5.3 5.1c-1.5-1.9-3.4-2.9-5.8-2.9-4.1 0-6.6 3-6.6 8.4 0 5.2 2.5 8 6.7 8 2.5 0 4.5-0.9 6.2-3l5.3 5.2C54.3 49.6 50.3 52 45.2 52z" />
+</svg>

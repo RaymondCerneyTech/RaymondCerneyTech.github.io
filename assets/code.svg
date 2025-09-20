@@ -1,0 +1,33 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="600" height="360" viewBox="0 0 600 360" role="img" aria-labelledby="codeTitle">
+  <title id="codeTitle">Code brackets and terminal glyphs</title>
+  <defs>
+    <linearGradient id="bgCode" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#101a33" />
+      <stop offset="100%" stop-color="#0a1124" />
+    </linearGradient>
+    <linearGradient id="accentCode" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#50c8ff" />
+      <stop offset="100%" stop-color="#7c5cff" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="360" rx="28" fill="url(#bgCode)" />
+  <rect x="110" y="80" width="380" height="220" rx="20" fill="rgba(18, 28, 52, 0.75)" stroke="rgba(124, 92, 255, 0.18)" stroke-width="1.5" />
+  <g font-family="'Segoe UI', 'Inter', sans-serif" font-weight="500" font-size="18" letter-spacing="0.08em" fill="#9aa7d0">
+    <text x="148" y="132">&lt;section&gt;</text>
+    <text x="148" y="164">  &lt;div class="panel"&gt;</text>
+    <text x="148" y="196">    &lt;h3&gt;Ship&lt;/h3&gt;</text>
+    <text x="148" y="228">  &lt;/div&gt;</text>
+    <text x="148" y="260">&lt;/section&gt;</text>
+  </g>
+  <g stroke="url(#accentCode)" stroke-width="14" stroke-linecap="round" opacity="0.85">
+    <path d="M84 152c34-32 68-32 102 0" />
+    <path d="M516 208c-34 32-68 32-102 0" />
+  </g>
+  <g stroke="#4a5ca0" stroke-width="8" stroke-linecap="round" opacity="0.45">
+    <path d="M220 300l60-40-60-40" fill="none" />
+    <path d="M380 116l-60 40 60 40" fill="none" />
+  </g>
+  <circle cx="150" cy="96" r="6" fill="#ff6b81" opacity="0.8" />
+  <circle cx="170" cy="96" r="6" fill="#ffc15e" opacity="0.8" />
+  <circle cx="190" cy="96" r="6" fill="#63e6be" opacity="0.8" />
+</svg>

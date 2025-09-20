@@ -1,11 +1,154 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Welcome</title>
-  </head>
-  <body>
-    <h1>Hello from RaymondCerneyTech!</h1>
-    <p>This is my GitHub Pages site powered by Codex.</p>
-  </body>
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Raymond Cerney Tech</title>
+  <meta name="description" content="The personal portfolio of Raymond Cerney — showcasing projects in software, AI, and creative experiments built with modern web technologies.">
+  <link rel="canonical" href="https://raymondcerneytech.github.io/">
+  <meta property="og:site_name" content="Raymond Cerney Tech">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Raymond Cerney Tech — Portfolio">
+  <meta property="og:description" content="The personal portfolio of Raymond Cerney — showcasing projects in software, AI, and creative experiments built with modern web technologies.">
+  <meta property="og:url" content="https://raymondcerneytech.github.io/">
+  <meta property="og:image" content="https://raymondcerneytech.github.io/social-preview.png">
+  <meta property="og:image:alt" content="Raymond Cerney Tech — portfolio preview">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Raymond Cerney Tech — Portfolio">
+  <meta name="twitter:description" content="The personal portfolio of Raymond Cerney — showcasing projects in software, AI, and creative experiments built with modern web technologies.">
+  <meta name="twitter:image" content="https://raymondcerneytech.github.io/social-preview.png">
+  <meta name="twitter:image:alt" content="Raymond Cerney Tech — portfolio preview">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="site-logo" href="#hero">
+        <img src="logo-wordmark.svg" width="240" height="40" alt="Raymond Cerney Tech" loading="lazy" decoding="async">
+      </a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <ul class="site-nav__list">
+          <li><a href="#hero" aria-current="page">Home</a></li>
+          <li><a href="#build-strip">How it's built</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#footer">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="main-content">
+    <section id="hero" class="hero" aria-labelledby="hero-title">
+      <div class="container hero__content">
+        <p class="hero__eyebrow" data-reveal>Live, open, and always improving</p>
+        <h1 id="hero-title" class="hero__title" data-animate-words>Build smarter web experiments in the open.</h1>
+        <p class="hero__lead" data-reveal>This fully static portfolio doubles as an ongoing experiment. Every polish pass, micro-interaction, and accessibility upgrade ships straight to GitHub Pages.</p>
+        <div class="hero__actions" data-reveal>
+          <a class="button button--primary" href="#projects">See the live work</a>
+          <a class="button button--ghost" href="https://github.com/RaymondCerneyTech/RaymondCerneyTech.github.io" target="_blank" rel="noopener noreferrer">View the repo</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="build-strip" class="build-strip" aria-labelledby="build-strip-title">
+      <div class="container build-strip__container">
+        <div class="build-strip__pin">
+          <a href="#step-spotlight" class="visually-hidden" data-background-toggle role="button" aria-pressed="false">Skip animated background</a>
+          <p class="build-strip__eyebrow" data-reveal>Workflow</p>
+          <h2 id="build-strip-title" data-reveal>How it's built</h2>
+          <p class="build-strip__lead" data-reveal>I keep the process pinned so you can trace each improvement as you scroll.</p>
+          <ol class="build-strip__steps" role="listbox" aria-label="Build workflow steps">
+            <li class="build-strip__step is-active" data-step="plan">
+              <button type="button" class="build-strip__stepButton" aria-current="true">
+                <span class="step-title">Plan</span>
+                <span class="step-detail">Outline requirements, measure contrast, and note how reduced motion should behave.</span>
+              </button>
+            </li>
+            <li class="build-strip__step" data-step="code">
+              <button type="button" class="build-strip__stepButton" aria-current="false">
+                <span class="step-title">Code</span>
+                <span class="step-detail">Ship vanilla HTML, CSS, and JS with thoughtful defaults and minimal dependencies.</span>
+              </button>
+            </li>
+            <li class="build-strip__step" data-step="deploy">
+              <button type="button" class="build-strip__stepButton" aria-current="false">
+                <span class="step-title">Deploy</span>
+                <span class="step-detail">Commit the iteration to GitHub Pages and document what changed for the next pass.</span>
+              </button>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section id="step-spotlight" class="step-spotlight" aria-live="polite" aria-atomic="true">
+      <div class="container">
+        <div class="step-spotlight__inner">
+          <article class="step-spotlight__panel is-active" data-step-panel="plan">
+            <div class="step-spotlight__media">
+              <img src="assets/plan.svg" width="480" height="320" alt="Abstract planning nodes" loading="lazy" decoding="async">
+            </div>
+            <div class="step-spotlight__copy">
+              <h3>Plan</h3>
+              <p>Scope clearly. Define the win, audit constraints, and choose sensible defaults.</p>
+            </div>
+          </article>
+          <article class="step-spotlight__panel" data-step-panel="code">
+            <div class="step-spotlight__media">
+              <img src="assets/code.svg" width="480" height="320" alt="Abstract code brackets" loading="lazy" decoding="async">
+            </div>
+            <div class="step-spotlight__copy">
+              <h3>Code</h3>
+              <p>Build small, test quickly, and ship tidy HTML/CSS/JS with accessible interactions.</p>
+            </div>
+          </article>
+          <article class="step-spotlight__panel" data-step-panel="deploy">
+            <div class="step-spotlight__media">
+              <img src="assets/deploy.svg" width="480" height="320" alt="Abstract launch arrow" loading="lazy" decoding="async">
+            </div>
+            <div class="step-spotlight__copy">
+              <h3>Deploy</h3>
+              <p>Automate the boring bits and document what changed in each pass.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <header class="section-header">
+          <h2 id="projects-title" data-reveal>Projects in focus</h2>
+          <p class="section-subtitle" data-reveal>This site is the project — I iterate in the open and note what works.</p>
+        </header>
+        <div class="projects__grid">
+          <article class="project-card" data-reveal>
+            <h3>This Portfolio Site</h3>
+            <p>A fully static site built with GitHub Pages and ChatGPT Codex. A live demo of AI-assisted coding.</p>
+          </article>
+          <article class="project-card" data-reveal>
+            <h3>Codex-Driven Workflow</h3>
+            <p>Scaffolding, styling, and deploying with AI tools. The repo documents each step.</p>
+          </article>
+          <article class="project-card" data-reveal>
+            <h3>Live Experiment Sandbox</h3>
+            <p>An evolving testbed for layouts, components, and micro-interactions.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer" class="site-footer">
+    <div class="container">
+      <p>&copy; <span data-year></span> Raymond Cerney Tech. Built with GitHub Pages and ChatGPT Codex.</p>
+      <a class="footer-link" href="mailto:hello@raymondcerney.com">hello@raymondcerney.com</a>
+    </div>
+  </footer>
+  <script src="script.js" defer></script>
+</body>
 </html>
