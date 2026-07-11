@@ -1,0 +1,139 @@
+/* Hero problem-solving visualization */
+.process-panel {
+  width: min(82vw, 390px);
+  padding: 1.2rem;
+  border: 1px solid var(--border);
+  border-radius: 1.5rem;
+  background:
+    linear-gradient(145deg, color-mix(in srgb, var(--panel) 92%, var(--blue) 8%), var(--panel));
+  box-shadow: var(--shadow);
+}
+
+.process-heading {
+  display: grid;
+  gap: .2rem;
+  margin-bottom: 1rem;
+}
+
+.process-heading strong {
+  font-size: 1.05rem;
+  line-height: 1.3;
+}
+
+.process-kicker {
+  color: var(--blue);
+  font-size: .72rem;
+  font-weight: 850;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+
+.process-list {
+  display: grid;
+  gap: .5rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.process-step {
+  position: relative;
+  display: grid;
+  grid-template-columns: 2.35rem 1fr;
+  align-items: center;
+  gap: .75rem;
+  min-height: 4.8rem;
+  padding: .75rem .85rem;
+  border: 1px solid var(--border);
+  border-radius: 1rem;
+  background: var(--solid);
+  overflow: hidden;
+  animation: process-focus 8s ease-in-out infinite;
+}
+
+.process-step::after {
+  content: "";
+  position: absolute;
+  left: 1.1rem;
+  bottom: -.55rem;
+  width: .8rem;
+  height: .8rem;
+  border-right: 2px solid var(--border);
+  border-bottom: 2px solid var(--border);
+  transform: rotate(45deg);
+}
+
+.process-step:last-child::after {
+  display: none;
+}
+
+.process-step:nth-child(2) { animation-delay: 2s; }
+.process-step:nth-child(3) { animation-delay: 4s; }
+.process-step:nth-child(4) { animation-delay: 6s; }
+
+.step-number {
+  display: grid;
+  place-items: center;
+  width: 2.2rem;
+  height: 2.2rem;
+  border-radius: .75rem;
+  background: var(--soft);
+  color: var(--blue);
+  font-size: .84rem;
+  font-weight: 900;
+}
+
+.step-copy {
+  display: grid;
+  gap: .1rem;
+}
+
+.step-copy strong {
+  font-size: .98rem;
+}
+
+.step-copy small {
+  color: var(--muted);
+  font-size: .78rem;
+  line-height: 1.35;
+}
+
+.process-note {
+  margin: .85rem 0 0;
+  color: var(--muted);
+  font-size: .75rem;
+  text-align: center;
+}
+
+@keyframes process-focus {
+  0%, 18%, 100% {
+    border-color: var(--border);
+    box-shadow: none;
+    transform: translateX(0);
+  }
+  4%, 14% {
+    border-color: var(--teal);
+    box-shadow: 0 0 0 .25rem color-mix(in srgb, var(--teal) 14%, transparent);
+    transform: translateX(.28rem);
+  }
+}
+
+@media (max-width: 880px) {
+  .hero-visual {
+    justify-items: stretch;
+  }
+
+  .process-panel {
+    width: 100%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .process-step {
+    animation: none;
+  }
+
+  .process-step:first-child {
+    border-color: var(--teal);
+  }
+}
