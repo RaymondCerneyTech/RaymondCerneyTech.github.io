@@ -3,23 +3,22 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Raymond Cerney's public career profile focused on systems thinking, quality, technical problem solving, software testing, and operations." />
-    <title>Raymond Cerney | Systems Thinking, Quality & Technical Problem Solving</title>
+    <meta name="description" content="Raymond Cerney's public career profile focused on quality, systems thinking, technical learning, and process improvement." />
+    <title>Raymond Cerney | Quality, Systems & Technical Problem Solving</title>
     <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="profile-summary.css" />
+    <link rel="stylesheet" href="formation.css" />
     <script src="script.js" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#main-content">Skip to content</a>
 
     <header class="site-header">
-      <a class="brand" href="#top" aria-label="Raymond Cerney home">
-        <span class="brand-mark" aria-hidden="true">RC</span>
-        <span>Raymond Cerney</span>
+      <a class="brand wordmark" href="#top" aria-label="Raymond Cerney home">
+        <span class="wordmark-name">Raymond Cerney</span>
+        <span class="wordmark-note">career profile</span>
       </a>
       <nav aria-label="Primary navigation">
         <a href="#experience">Experience</a>
-        <a href="#strengths">Strengths</a>
         <a href="#background">Background</a>
         <a href="#contact">Contact</a>
       </nav>
@@ -27,126 +26,154 @@
     </header>
 
     <main id="main-content">
-      <section class="hero" id="top">
+      <section class="hero invention-hero" id="top">
         <div class="hero-copy reveal">
+          <p class="section-code">01 / profile</p>
           <p class="eyebrow">Twin Cities, Minnesota</p>
-          <h1>Systems thinking, quality, and technical problem solving.</h1>
-          <p class="hero-summary">I have worked across software quality assurance, junior software engineering, healthcare systems, production, inventory, and retail operations. I am strongest when a role requires me to understand a system, identify meaningful differences, investigate problems, and improve how work is completed.</p>
+          <h1>I study how work fits together—and how it can fit together better.</h1>
+          <p class="hero-summary">My experience spans software quality assurance, junior software engineering, healthcare systems, production, inventory, and retail operations. Across those settings, I have learned to identify the difference that matters, understand the available routes, and turn what I learn into a clearer result.</p>
           <div class="hero-actions">
-            <a class="button primary" href="#experience">View experience</a>
+            <a class="button primary" href="#experience">Explore experience</a>
             <a class="button secondary" href="mailto:raymondcerney.professional@gmail.com">Email me</a>
           </div>
         </div>
 
-        <aside class="profile-summary reveal" aria-label="Career summary">
-          <p class="profile-summary-kicker">At a glance</p>
-          <h2>Experience grounded in quality, systems, and operations.</h2>
-          <dl>
-            <div class="summary-row">
-              <dt>Nearly 3 years</dt>
-              <dd>Manual software quality assurance</dd>
+        <section class="formation-workbench reveal" aria-labelledby="formation-title">
+          <div class="bench-header">
+            <div>
+              <p class="bench-kicker">Formation workbench</p>
+              <h2 id="formation-title">Choose a work context</h2>
             </div>
-            <div class="summary-row">
-              <dt>B.S. Computer Science</dt>
-              <dd>Completed in 2017</dd>
-            </div>
-            <div class="summary-row">
-              <dt>Cross-domain experience</dt>
-              <dd>Software, healthcare systems, production, inventory, and retail</dd>
-            </div>
-          </dl>
-        </aside>
+            <span class="bench-status" aria-hidden="true">interactive</span>
+          </div>
+          <p class="bench-instruction">Tap a context to see the transferable pattern it developed.</p>
+
+          <div class="formation-modules" role="group" aria-label="Work contexts">
+            <button class="formation-module is-active" type="button" data-formation="qa" aria-pressed="true">
+              <span class="module-code">QA</span>
+              <span class="module-title">Expected ↔ actual</span>
+              <span class="module-detail">Find the meaningful discrepancy</span>
+            </button>
+            <button class="formation-module" type="button" data-formation="software" aria-pressed="false">
+              <span class="module-code">SW</span>
+              <span class="module-title">Issue → change</span>
+              <span class="module-detail">Trace dependencies and validate</span>
+            </button>
+            <button class="formation-module" type="button" data-formation="production" aria-pressed="false">
+              <span class="module-code">PR</span>
+              <span class="module-title">Parts → result</span>
+              <span class="module-detail">Assemble, inspect, correct</span>
+            </button>
+            <button class="formation-module" type="button" data-formation="operations" aria-pressed="false">
+              <span class="module-code">OP</span>
+              <span class="module-title">Request → handoff</span>
+              <span class="module-detail">Route work through the process</span>
+            </button>
+          </div>
+
+          <div class="formation-output" id="formation-output" aria-live="polite">
+            <p class="output-label" id="formation-output-label">Quality assurance</p>
+            <h3 id="formation-output-title">Detect the difference that changes the result.</h3>
+            <p id="formation-output-copy">Compare expected and actual behavior, isolate the discrepancy, and record evidence clearly enough for another person to act on it.</p>
+          </div>
+
+          <p class="shared-pattern"><span>Shared pattern</span> Observe → compare → act → verify</p>
+        </section>
       </section>
 
       <section class="section experience-section" id="experience">
         <div class="section-heading reveal">
-          <p class="eyebrow">Selected experience</p>
-          <h2>A career across physical and digital systems</h2>
+          <p class="section-code">02 / experience</p>
+          <p class="eyebrow">Selected work history</p>
+          <h2>Different settings, connected abilities</h2>
+          <p>Each role added a different working context. The useful part is what carried forward.</p>
         </div>
-        <div class="timeline">
-          <details class="timeline-item reveal" open>
+
+        <div class="timeline role-timeline">
+          <details class="timeline-item reveal">
             <summary><span class="timeline-year">2026–Present</span><span class="timeline-title">Seasonal Associate · Walmart</span></summary>
-            <div class="timeline-body"><p>Supports seasonal and lawn-and-garden operations, freight, inventory scanning, digital orders, cashiering, and changing store needs.</p><div class="tag-row"><span>Inventory</span><span>Procedure learning</span><span>Customer support</span></div></div>
+            <div class="timeline-body role-grid">
+              <div><span class="role-label">Setting</span><p>Seasonal retail operations with shifting priorities and changing daily needs.</p></div>
+              <div><span class="role-label">Work</span><p>Freight, inventory scanning, digital orders, cashiering, and garden-center support.</p></div>
+              <div><span class="role-label">Carried forward</span><p>Adapt quickly without losing process accuracy.</p></div>
+            </div>
           </details>
+
           <details class="timeline-item reveal">
             <summary><span class="timeline-year">2022–2023</span><span class="timeline-title">Software Engineer Associate · Turnberry Solutions</span></summary>
-            <div class="timeline-body"><p>Worked first on a Securian Financial client assignment and later on Turnberry's internal New Elevation project. Contributed to junior engineering tasks, issue resolution, vulnerability patching, project meetings, and development support.</p><div class="tag-row"><span>Software</span><span>Team collaboration</span><span>Technical learning</span></div></div>
+            <div class="timeline-body role-grid">
+              <div><span class="role-label">Setting</span><p>A Securian Financial client assignment followed by Turnberry's internal New Elevation project.</p></div>
+              <div><span class="role-label">Work</span><p>Junior development tasks, vulnerability patching, issue resolution, meetings, and project support.</p></div>
+              <div><span class="role-label">Carried forward</span><p>Trace dependencies and learn unfamiliar systems.</p></div>
+            </div>
           </details>
-          <details class="timeline-item reveal">
+
+          <details class="timeline-item reveal" open>
             <summary><span class="timeline-year">2018–2020</span><span class="timeline-title">Quality Assurance Analyst · IQS / Maslow Media</span></summary>
-            <div class="timeline-body"><p>Performed manual software testing at the Lifetouch and later Shutterfly client site in Eden Prairie. Compared expected and actual behavior, identified defects, and documented findings across nearly three years of client work.</p><div class="tag-row"><span>Manual QA</span><span>Defect reporting</span><span>Expected vs. actual</span></div></div>
+            <div class="timeline-body role-grid">
+              <div><span class="role-label">Setting</span><p>Manual software testing at the Lifetouch and later Shutterfly client site in Eden Prairie.</p></div>
+              <div><span class="role-label">Work</span><p>Compared expected and actual behavior, identified defects, reproduced issues, and documented findings.</p></div>
+              <div><span class="role-label">Carried forward</span><p>Separate ordinary variation from the difference that changes the outcome.</p></div>
+            </div>
           </details>
+
           <details class="timeline-item reveal">
             <summary><span class="timeline-year">2016–2018</span><span class="timeline-title">EHR Revenue Cycle Intern · Essentia Health</span></summary>
-            <div class="timeline-body"><p>Supported electronic health record and revenue-cycle work in Duluth, building experience with healthcare systems, data accuracy, and structured workflows.</p><div class="tag-row"><span>Healthcare systems</span><span>Data accuracy</span><span>Documentation</span></div></div>
+            <div class="timeline-body role-grid">
+              <div><span class="role-label">Setting</span><p>Electronic health record and revenue-cycle systems in Duluth.</p></div>
+              <div><span class="role-label">Work</span><p>Supported structured healthcare workflows involving data accuracy and process-dependent information.</p></div>
+              <div><span class="role-label">Carried forward</span><p>Maintain accuracy inside complex, rule-bound systems.</p></div>
+            </div>
           </details>
+
           <details class="timeline-item reveal">
             <summary><span class="timeline-year">2012</span><span class="timeline-title">Temporary Production Assembler · The Work Connection</span></summary>
-            <div class="timeline-body"><p>Completed a temporary assignment at Plastics Products Co. in Princeton, Minnesota, assembling plastic consumer products, performing visual quality checks, and working across multiple production stations.</p><div class="tag-row"><span>Assembly</span><span>Visual inspection</span><span>Production procedures</span></div></div>
+            <div class="timeline-body role-grid">
+              <div><span class="role-label">Setting</span><p>A temporary assignment at Plastics Products Co. in Princeton, Minnesota.</p></div>
+              <div><span class="role-label">Work</span><p>Assembled plastic consumer products, performed visual checks, and worked across production stations.</p></div>
+              <div><span class="role-label">Carried forward</span><p>Connect procedure, physical assembly, and visible quality.</p></div>
+            </div>
           </details>
         </div>
       </section>
 
-      <section class="section" id="strengths">
+      <section class="section background-section" id="background">
         <div class="section-heading reveal">
-          <p class="eyebrow">Where I contribute</p>
-          <h2>Practical strengths across different work settings</h2>
-          <p>The jobs have differed, but the same abilities carry across them: understand the process, identify what matters, document clearly, and complete the work accurately.</p>
+          <p class="section-code">03 / inputs</p>
+          <p class="eyebrow">Background</p>
+          <h2>Formal foundation and ongoing inquiry</h2>
         </div>
-        <div class="mode-grid">
-          <article class="mode-card reveal">
-            <div class="mode-visual inspection-visual" aria-hidden="true"><div class="inspection-frame"><span></span><span></span><span></span><div class="scan-line"></div></div></div>
-            <h3>Quality and inspection</h3>
-            <p>Manual testing, visual inspection, discrepancy detection, expected-versus-actual comparison, and defect documentation.</p>
-          </article>
-          <article class="mode-card reveal">
-            <div class="mode-visual code-visual" aria-hidden="true"><div class="code-row"><span></span><span></span><span></span></div><div class="code-row short"><span></span><span></span></div><div class="code-pulse"></div></div>
-            <h3>Technical systems</h3>
-            <p>Software support, junior engineering work, troubleshooting, unfamiliar tools, and structured technical learning.</p>
-          </article>
-          <article class="mode-card reveal">
-            <div class="mode-visual assembly-visual" aria-hidden="true"><div class="part part-one"></div><div class="part part-two"></div><div class="part part-three"></div><div class="assembly-target"></div></div>
-            <h3>Production and operations</h3>
-            <p>Structured procedures, component assembly, visual checks, inventory handling, and consistent execution.</p>
-          </article>
-          <article class="mode-card reveal">
-            <div class="mode-visual route-visual" aria-hidden="true"><div class="route-line"></div><div class="route-dot dot-one"></div><div class="route-dot dot-two"></div><div class="route-dot dot-three"></div></div>
-            <h3>Investigation and improvement</h3>
-            <p>Examining constraints, tracing problems, comparing alternate approaches, and looking for more efficient ways to complete work.</p>
-          </article>
-        </div>
-      </section>
 
-      <section class="section" id="background">
-        <div class="background-grid">
-          <article class="education-card reveal">
+        <div class="background-rail reveal">
+          <article class="background-entry">
+            <span class="background-index">A</span>
             <div>
-              <p class="eyebrow">Education</p>
-              <h2>Bachelor of Science in Computer Science</h2>
+              <p class="background-label">Formal foundation</p>
+              <h3>Bachelor of Science in Computer Science</h3>
               <p>Completed in 2017, with additional study in music.</p>
             </div>
-            <div class="education-symbol" aria-hidden="true">CS</div>
           </article>
 
-          <article class="education-card reveal">
+          <article class="background-entry">
+            <span class="background-index">B</span>
             <div>
-              <p class="eyebrow">Independent study</p>
-              <h2>Ongoing interest in complex systems</h2>
-              <p>I regularly study artificial intelligence, cognition, psychology, physics, and biology, especially how complex systems adapt and behave under changing conditions.</p>
+              <p class="background-label">Independent inquiry</p>
+              <h3>Complex systems across disciplines</h3>
+              <p>I regularly study artificial intelligence, cognition, psychology, physics, and biology—especially how systems form, adapt, preserve information, and behave under changing conditions.</p>
+              <p class="study-line">Artificial intelligence / Cognition / Psychology / Physics / Biology</p>
             </div>
-            <div class="education-symbol" aria-hidden="true">∞</div>
           </article>
         </div>
       </section>
 
       <section class="section contact-section" id="contact">
-        <div class="contact-card reveal">
-          <p class="eyebrow">Contact</p>
-          <h2>Open to roles combining quality, technical learning, and process improvement.</h2>
-          <p>For professional inquiries, use the dedicated career email below.</p>
-          <div class="contact-actions">
-            <a class="button primary" href="mailto:raymondcerney.professional@gmail.com">raymondcerney.professional@gmail.com</a>
+        <div class="contact-card reveal invention-contact">
+          <div>
+            <p class="section-code">04 / contact</p>
+            <p class="eyebrow">Professional inquiries</p>
+            <h2>Open to roles where accuracy, learning, and improvement matter.</h2>
           </div>
+          <a class="button primary" href="mailto:raymondcerney.professional@gmail.com">raymondcerney.professional@gmail.com</a>
         </div>
       </section>
     </main>
